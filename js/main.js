@@ -63,7 +63,7 @@ function showWinner(winner, computerChoice){
     } else if(winner === 'computer'){
         scoreboard.computer++;
         result.innerHTML = `
-        <h1 class="text-win">You Lose</h1>
+        <h1 class="text-lose">You Lose</h1>
         <i class="fas fa-hand-${computerChoice} fa-10x"></i>
         <p>Computer Chose <strong>${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)}</strong></p>
         `;
